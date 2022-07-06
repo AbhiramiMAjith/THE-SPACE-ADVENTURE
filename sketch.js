@@ -138,8 +138,8 @@ function draw()
 {
     background (0)
     drawSprites ()
-    /*bgMusic.play ()
-    bgMusic.setVolume (0.02)*/
+    bgMusic.play ()
+    bgMusic.setVolume (0.02)
 
     if (gamestate == 0)
     {
